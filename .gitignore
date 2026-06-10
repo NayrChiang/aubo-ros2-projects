@@ -1,0 +1,13 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+*.pyc
+__pycache__/
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
