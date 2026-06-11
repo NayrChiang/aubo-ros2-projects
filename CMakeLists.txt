@@ -28,7 +28,7 @@ find_package(moveit_ros_planning_interface REQUIRED)
 ament_python_install_package(${PROJECT_NAME})
 
 install(PROGRAMS
-  # scripts/my_script.py   # uncomment and add scripts here
+  scripts/tcp_pose_publisher.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
